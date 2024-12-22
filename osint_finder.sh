@@ -2,7 +2,7 @@
 
 
 
-if [[ "$1" -eq "" ]];then
+if [[ '$1' -eq "" ]];then
 	echo "./osint_finder.sh [username]"
 fi
 
