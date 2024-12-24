@@ -2,8 +2,9 @@
 
 
 
-if [[ '$1' -eq "" ]];then
+if [ -z "$1" ] ;then
 	echo "./osint_finder.sh [username]"
+	exit
 fi
 
 
